@@ -1,0 +1,40 @@
+{
+  "name": "ReactNativeResume",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "16.5.0",
+    "react-native": "0.57.1",
+    "react-native-elements": "^1.0.0-beta7",
+    "react-native-extra-dimensions-android": "^0.22.0",
+    "react-native-fs": "^2.12.1",
+    "react-native-image-zoom-viewer": "^2.2.24",
+    "react-native-linear-gradient": "^2.4.2",
+    "react-native-shadow": "^1.2.2",
+    "react-native-star-rating": "^1.1.0",
+    "react-native-svg": "^8.0.8",
+    "react-native-swiper": "^1.5.13",
+    "react-native-vector-icons": "^6.0.2",
+    "react-native-video": "^3.2.1",
+    "react-navigation": "^2.18.0",
+    "react-redux": "^5.1.0",
+    "realm": "^2.22.0",
+    "redux": "^4.0.1"
+  },
+  "devDependencies": {
+    "@babel/runtime": "^7.1.2",
+    "babel-jest": "23.6.0",
+    "babel-plugin-import": "^1.10.0",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.48.1",
+    "react-test-renderer": "16.5.0",
+    "schedule": "0.4.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
