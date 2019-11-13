@@ -1,5 +1,5 @@
 /**基础链接头*/
-const MovieBaseUrl = "https://api.douban.com/v2/movie/";
+const MovieBaseUrl = "https://douban.uieee.com/v2/movie/";
 const MusicBaseUrl ="http://123.56.221.77/musicApi/";
 const apikey = '0df993c66c0c636e29ecbb5344252a4a';
 
