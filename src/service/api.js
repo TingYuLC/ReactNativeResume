@@ -1,13 +1,12 @@
 /**基础链接头*/
 const MovieBaseUrl = "https://douban.uieee.com/v2/movie/";
-const MusicBaseUrl ="http://123.56.221.77/musicApi/";
-const apikey = '0df993c66c0c636e29ecbb5344252a4a';
+const MusicBaseUrl ="http://localhost:3000/";
 
 const demo = {
   /**电影列表*/
-  Movie_List_Url: MovieBaseUrl + '{type}?apikey=' + apikey,
+  Movie_List_Url: MovieBaseUrl + '{type}',
   /**电影搜索*/
-  Movie_Search_Url: MovieBaseUrl + 'search?q={text}&apikey=' + apikey,
+  Movie_Search_Url: MovieBaseUrl + 'search?q={text}',
   /**电影详情*/
   Movie_Detail_Url: MovieBaseUrl + '/subject/',
   /**电影剧照*/
@@ -17,7 +16,7 @@ const demo = {
   /**网易云音乐排行版*/
   Music_Ranking_Url: MusicBaseUrl + 'toplist/detail',
   /**网易云音乐排行榜歌曲*/
-  Music_Detail_Url: MusicBaseUrl + 'playlist/detail',
+  Music_Detail_Url: MusicBaseUrl + 'playlist/detail?id=24381616',
   /**网易云音乐搜索*/
   Music_Search_Url: MusicBaseUrl + 'search?keywords={keywords}',
   /**网易云音频地址*/
