@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "react": "16.5.0",
-    "react-native": "0.57.1",
+    "react-native": "0.70.2",
     "react-native-elements": "^1.0.0-beta7",
     "react-native-extra-dimensions-android": "^0.22.0",
     "react-native-fs": "^2.12.1",
